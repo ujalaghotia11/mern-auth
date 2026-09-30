@@ -7,8 +7,8 @@ const cors = require('cors');
 const app = express();
 app.use(express.json());
 app.use(cors());
-// const authRoutes = require('./routes/auth');
-// app.use('/api/auth',authRoutes);
+const authRoutes = require('./routes/auth');
+app.use('/api/auth',authRoutes);
 mongoose.connect(process.env.MONGO_URI).then(()=>console.log('MONGODB connected successfully'))
 .catch((err)=>console.log('MONGODB connection failed:',err));
 
