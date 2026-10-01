@@ -6,12 +6,9 @@ const cors = require('cors');
 
 const app = express();
 
-// 1. CORS update: Front-end (Local + GitHub Pages) ko allow karne ke liye
+// 1. CORS Update: Localhost (5173, 5174, 3000) + GitHub Pages sabhi ko allow karein
 app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://ujalaghotia.github.io'
-  ],
+  origin: true,
   credentials: true
 }));
 
@@ -19,6 +16,9 @@ app.use(express.json());
 
 const authRoutes = require('./routes/auth');
 app.use('/api/auth', authRoutes);
+
+const medicineRoutes = require('./routes/medicineRoutes');
+app.use('/api/medicines', medicineRoutes);
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MONGODB connected successfully'))
