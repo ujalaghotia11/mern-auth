@@ -1,0 +1,553 @@
+brandName,saltName,strength,price,manufacturer,dosageForm
+Dolo 650,Paracetamol,650mg,30.91,Micro Labs Ltd,Tablet
+Crocin Advance,Paracetamol,500mg,28.50,GlaxoSmithKline,Tablet
+Calpol 650,Paracetamol,650mg,31.20,GlaxoSmithKline,Tablet
+Pacimol 650,Paracetamol,650mg,24.50,Ipca Laboratories,Tablet
+Pan 40,Pantoprazole,40mg,155.00,Alkem Laboratories,Tablet
+Pantocid 40,Pantoprazole,40mg,161.50,Sun Pharma,Tablet
+Pantodac 40,Pantoprazole,40mg,145.00,Zydus Cadila,Tablet
+Pan D,Pantoprazole and Domperidone,40mg/30mg,199.00,Alkem Laboratories,Capsule
+Pantocid D SR,Pantoprazole and Domperidone,40mg/30mg,210.00,Sun Pharma,Capsule
+Pantosec D SR,Pantoprazole and Domperidone,40mg/30mg,185.00,Cipla Ltd,Capsule
+Rabekind 20,Rabeprazole,20mg,92.00,Mankind Pharma,Tablet
+Rablet 20,Rabeprazole,20mg,115.00,Lupin Ltd,Tablet
+Rantac 150,Ranitidine,150mg,42.00,J B Chemicals,Tablet
+Omee Capsule,Omeprazole,20mg,65.00,Alkem Laboratories,Capsule
+Omez 20,Omeprazole,20mg,78.50,Dr Reddys Laboratories,Capsule
+Gelusil MPS,Aluminum Hydroxide and Magnesium Hydroxide,400ml,135.00,Pfizer Ltd,Syrup
+Digene Gel,Aluminum Hydroxide and Magnesium Hydroxide,200ml,142.00,Abbott,Syrup
+Combiflam,Ibuprofen and Paracetamol,400mg/325mg,48.50,Sanofi India,Tablet
+Flexon,Ibuprofen and Paracetamol,400mg/325mg,32.00,Aristo Pharmaceuticals,Tablet
+Brufen 400,Ibuprofen,400mg,21.50,Abbott,Tablet
+Zerodol P,Aceclofenac and Paracetamol,100mg/325mg,65.00,Ipca Laboratories,Tablet
+Hifenac P,Aceclofenac and Paracetamol,100mg/325mg,72.00,Intas Pharmaceuticals,Tablet
+Zerodol SP,Aceclofenac Paracetamol and Serratiopeptidase,100mg/325mg/15mg,115.00,Ipca Laboratories,Tablet
+Signoflam,Aceclofenac Paracetamol and Serratiopeptidase,100mg/325mg/15mg,128.00,Lupin Ltd,Tablet
+Zerodol TH 4,Aceclofenac and Thiocolchicoside,100mg/4mg,210.00,Ipca Laboratories,Tablet
+Thioquest 4,Thiocolchicoside,4mg,180.00,Sun Pharma,Tablet
+Voveran 50,Diclofenac,50mg,55.00,Novartis India,Tablet
+Reactin 50,Diclofenac,50mg,38.00,Cipla Ltd,Tablet
+Meftal Spas,Dicyclomine and Mefenamic Acid,10mg/250mg,52.00,Blue Cross Laboratories,Tablet
+Cyclopam,Dicyclomine and Paracetamol,20mg/500mg,58.00,Indoco Remedies,Tablet
+Disprin,Aspirin,325mg,11.20,Reckitt Benckiser,Tablet
+Ecosprin 75,Aspirin,75mg,5.80,USV Ltd,Tablet
+Ecosprin 150,Aspirin,150mg,9.50,USV Ltd,Tablet
+Clopilet 75,Clopidogrel,75mg,125.00,Sun Pharma,Tablet
+Deplatt 75,Clopidogrel,75mg,118.00,Torrent Pharmaceuticals,Tablet
+Atorva 10,Atorvastatin,10mg,98.00,Zydus Cadila,Tablet
+Lipivas 10,Atorvastatin,10mg,105.00,Sun Pharma,Tablet
+Storvas 10,Atorvastatin,10mg,92.00,Sun Pharma,Tablet
+Rosuvas 10,Rosuvastatin,10mg,245.00,Sun Pharma,Tablet
+Rozavel 10,Rosuvastatin,10mg,210.00,Sun Pharma,Tablet
+Telma 40,Telmisartan,40mg,138.00,Glenmark Pharmaceuticals,Tablet
+Telmikind 40,Telmisartan,40mg,78.00,Mankind Pharma,Tablet
+Tazloc 40,Telmisartan,40mg,112.00,USV Ltd,Tablet
+Telma H,Telmisartan and Hydrochlorothiazide,40mg/12.5mg,185.00,Glenmark Pharmaceuticals,Tablet
+Cilacar 10,Cilnidipine,10mg,142.00,Unique Pharmaceutical,Tablet
+Amlokind 5,Amlodipine,5mg,28.00,Mankind Pharma,Tablet
+Stamlo 5,Amlodipine,5mg,35.00,Dr Reddys Laboratories,Tablet
+Metolar XR 25,Metoprolol,25mg,88.00,Cipla Ltd,Tablet
+Glycomet 500,Metformin,500mg,24.50,USV Ltd,Tablet
+Glycomet GP 2,Metformin and Glimepiride,500mg/2mg,135.00,USV Ltd,Tablet
+Glimestar M2,Metformin and Glimepiride,500mg/2mg,110.00,Mankind Pharma,Tablet
+Amaryl 2mg,Glimepiride,2mg,195.00,Sanofi India,Tablet
+Galvus Met 50/500,Vildagliptin and Metformin,50mg/500mg,340.00,Novartis India,Tablet
+Zita Met Plus,Teneligliptin and Metformin,20mg/500mg,210.00,Glenmark Pharmaceuticals,Tablet
+Janumet 50/500,Sitagliptin and Metformin,50mg/500mg,385.00,MSD Pharmaceuticals,Tablet
+Forxiga 10mg,Dapagliflozin,10mg,780.00,AstraZeneca,Tablet
+Jardiance 10mg,Empagliflozin,10mg,820.00,Boehringer Ingelheim,Tablet
+Azithral 500,Azithromycin,500mg,119.50,Alembic Pharmaceuticals,Tablet
+Aziwok 500,Azithromycin,500mg,112.00,Wockhardt Ltd,Tablet
+Zady 500,Azithromycin,500mg,108.00,Mankind Pharma,Tablet
+Augmentin 625 DUO,Amoxicillin and Clavulanic Acid,500mg/125mg,201.50,GlaxoSmithKline,Tablet
+Moxikind CV 625,Amoxicillin and Clavulanic Acid,500mg/125mg,175.00,Mankind Pharma,Tablet
+Clavam 625,Amoxicillin and Clavulanic Acid,500mg/125mg,204.00,Alkem Laboratories,Tablet
+Novamox 500,Amoxicillin,500mg,64.00,Cipla Ltd,Tablet
+Mox 500,Amoxicillin,500mg,58.00,Sun Pharma,Tablet
+Ciplox 500,Ciprofloxacin,500mg,42.50,Cipla Ltd,Tablet
+Cifran 500,Ciprofloxacin,500mg,48.00,Sun Pharma,Tablet
+Taxim O 200,Cefixime,200mg,105.00,Alkem Laboratories,Tablet
+Zifi 200,Cefixime,200mg,112.00,FDC Ltd,Tablet
+Cefakind 500,Cefuroxime,500mg,480.00,Mankind Pharma,Tablet
+Mahacef 200,Cefixime,200mg,98.00,Mankind Pharma,Tablet
+Oflox 200,Ofloxacin,200mg,68.00,Cipla Ltd,Tablet
+Zenflox 200,Ofloxacin,200mg,72.00,Mankind Pharma,Tablet
+Oflomac 200,Ofloxacin,200mg,62.00,Mankind Pharma,Tablet
+Flagyl 400,Metronidazole,400mg,22.00,Abbott,Tablet
+Metrogyl 400,Metronidazole,400mg,24.50,J B Chemicals,Tablet
+O2 Tablet,Ofloxacin and Ornidazole,200mg/500mg,145.00,Medley Pharmaceuticals,Tablet
+Norflox TZ,Norfloxacin and Tinidazole,400mg/600mg,108.00,Cipla Ltd,Tablet
+Sporidex 500,Cephalexin,500mg,195.00,Sun Pharma,Tablet
+Allegra 120,Fexofenadine,120mg,218.00,Sanofi India,Tablet
+Histafree 120,Fexofenadine,120mg,165.00,Mankind Pharma,Tablet
+Cetcip 10,Cetirizine,10mg,18.50,Cipla Ltd,Tablet
+Okacet,Cetirizine,10mg,20.00,Cipla Ltd,Tablet
+Cetzine,Cetirizine,10mg,22.00,Dr Reddys Laboratories,Tablet
+Alerid,Cetirizine,10mg,19.00,Cipla Ltd,Tablet
+Levocet 5,Levocetirizine,5mg,55.00,Hetero Healthcare,Tablet
+L Hist 5,Levocetirizine,5mg,48.00,Alkem Laboratories,Tablet
+Monticope,Levocetirizine and Montelukast,5mg/10mg,142.00,Mankind Pharma,Tablet
+Montair LC,Levocetirizine and Montelukast,5mg/10mg,175.00,Cipla Ltd,Tablet
+Montek LC,Levocetirizine and Montelukast,5mg/10mg,182.00,Sun Pharma,Tablet
+Ascoril LS,Levosalbutamol Ambroxol and Guaiphenesin,100ml,118.00,Glenmark Pharmaceuticals,Syrup
+Benadryl Cough Syrup,Diphenhydramine and Ammonium Chloride,150ml,145.00,Johnson & Johnson,Syrup
+Corex DX,Dextromethorphan and Chlorpheniramine,100ml,125.00,Pfizer Ltd,Syrup
+Zeepex Plus,Levosalbutamol Ambroxol and Guaiphenesin,100ml,92.00,Mankind Pharma,Syrup
+Asthalin Inhaler,Salbutamol,100mcg,162.00,Cipla Ltd,Inhaler
+Foracort 200,Formoterol and Budesonide,200mcg,540.00,Cipla Ltd,Inhaler
+Seroflo 250,Salmeterol and Fluticasone,250mcg,680.00,Cipla Ltd,Inhaler
+Duolin Inhaler,Levosalbutamol and Ipratropium,50mcg/20mcg,315.00,Cipla Ltd,Inhaler
+Bandrone 150,Ibandronic Acid,150mg,520.00,Natco Pharma,Tablet
+Shelcal 500,Calcium and Vitamin D3,500mg/250IU,131.50,Torrent Pharmaceuticals,Tablet
+Becosules Capsule,B Complex with Vitamin C,Standard,52.00,Pfizer Ltd,Capsule
+Neurobion Forte,Vitamin B Complex with Vitamin B12,Standard,38.00,Procter & Gamble,Tablet
+Evion 400,Vitamin E,400mg,35.00,Procter & Gamble,Capsule
+Limcee 500,Vitamin C,500mg,25.00,Abbott,Tablet
+Crocin 650,Paracetamol,650mg,32.00,GlaxoSmithKline,Tablet
+Sumo Tablet,Nimesulide and Paracetamol,100mg/325mg,125.00,Alkem Laboratories,Tablet
+Nicip Plus,Nimesulide and Paracetamol,100mg/325mg,110.00,Cipla Ltd,Tablet
+Nise Tablet,Nimesulide,100mg,95.00,Dr Reddys Laboratories,Tablet
+Meftal 500,Mefenamic Acid,500mg,45.00,Blue Cross Laboratories,Tablet
+Anacin,Aspirin and Caffeine,325mg/30mg,22.00,Abbott,Tablet
+Saridon,Paracetamol Propyphenazone and Caffeine,250mg/150mg/50mg,42.00,Piramal Healthcare,Tablet
+Crocin Pain Relief,Paracetamol and Caffeine,650mg/50mg,65.00,GlaxoSmithKline,Tablet
+Ultracet,Tramadol and Paracetamol,37.5mg/325mg,240.00,Janssen Pharmaceuticals,Tablet
+Calpol 500,Paracetamol,500mg,18.00,GlaxoSmithKline,Tablet
+Aciloc 150,Ranitidine,150mg,38.00,Cadila Pharmaceuticals,Tablet
+Aciloc 300,Ranitidine,300mg,62.00,Cadila Pharmaceuticals,Tablet
+Zinetac 150,Ranitidine,150mg,45.00,GlaxoSmithKline,Tablet
+Rabium 20,Rabeprazole,20mg,110.00,Oasis Pharma,Tablet
+Rabeloc 20,Rabeprazole,20mg,105.00,Cadila Pharmaceuticals,Tablet
+Veloz 20,Rabeprazole,20mg,130.00,Torrent Pharmaceuticals,Tablet
+Happi 20,Rabeprazole,20mg,118.00,Zydus Cadila,Tablet
+Razo 20,Rabeprazole,20mg,125.00,Dr Reddys Laboratories,Tablet
+Nexpro 40,Esomeprazole,40mg,165.00,Torrent Pharmaceuticals,Tablet
+Esomac 40,Esomeprazole,40mg,150.00,Cipla Ltd,Tablet
+Sompraz 40,Esomeprazole,40mg,172.00,Sun Pharma,Tablet
+Lupocid 40,Pantoprazole,40mg,120.00,Lupin Ltd,Tablet
+Nupenta 40,Pantoprazole,40mg,135.00,Macleods Pharmaceuticals,Tablet
+Pansec 40,Pantoprazole,40mg,128.00,Cipla Ltd,Tablet
+Eldoper,Loperamide,2mg,22.00,Elder Pharmaceuticals,Capsule
+Imodium,Loperamide,2mg,35.00,Janssen Pharmaceuticals,Capsule
+Lopamide,Loperamide,2mg,18.00,Torrent Pharmaceuticals,Capsule
+Econorm 250,Saccharomyces boulardii,250mg,320.00,Dr Reddys Laboratories,Sachet
+Sporlac DS,Lactic Acid Bacillus,120 Million Spores,95.00,Sanofi India,Tablet
+Vizylac Capsule,Lactic Acid Bacillus and B Complex,Standard,85.00,Unichem Laboratories,Capsule
+Cremaffin Syrup,Liquid Paraffin and Milk of Magnesia,200ml,210.00,Abbott,Syrup
+Dulcolax 5mg,Bisacodyl,5mg,12.50,Sanofi India,Tablet
+Kayam Tablet,Herbal Laxative Formulation,Standard,90.00,Seth Bros,Tablet
+Cremaffin Plus,Liquid Paraffin Milk of Magnesia and Picosulfate,222ml,265.00,Abbott,Syrup
+Looz Syrup,Lactulose,100ml,185.00,Intas Pharmaceuticals,Syrup
+Duphalac Syrup,Lactulose,150ml,240.00,Abbott,Syrup
+Mucaine Gel,Oxetacaine Aluminum Hydroxide and Magnesium,200ml,198.00,Pfizer Ltd,Syrup
+Sukra BS Syrup,Sucralfate and Oxetacaine,200ml,220.00,Mankind Pharma,Syrup
+Sucrafil Suspension,Sucralfate,200ml,210.00,Fourrts India,Syrup
+Sucral O,Sucralfate and Oxetacaine,200ml,245.00,Strides Pharma,Syrup
+O2 H Suspension,Ofloxacin and Metronidazole,60ml,82.00,Medley Pharmaceuticals,Syrup
+Taxim O Forte,Cefixime,100mg/5ml,95.00,Alkem Laboratories,Syrup
+Dryconate Syrup,Sodium Picosulfate,100ml,110.00,Biological E,Syrup
+Prazac 20,Omeprazole,20mg,52.00,Sun Pharma,Capsule
+Dexona 0.5,Dexamethasone,0.5mg,8.50,Zydus Cadila,Tablet
+Betnesol 0.5,Betamethasone,0.5mg,14.00,GlaxoSmithKline,Tablet
+Wysolone 10,Prednisolone,10mg,28.00,Pfizer Ltd,Tablet
+Wysolone 5,Prednisolone,5mg,18.00,Pfizer Ltd,Tablet
+Wysolone 20,Prednisolone,20mg,48.00,Pfizer Ltd,Tablet
+Omnacortil 10,Prednisolone,10mg,24.00,Macleods Pharmaceuticals,Tablet
+Omnacortil 20,Prednisolone,20mg,42.00,Macleods Pharmaceuticals,Tablet
+Omnacortil 5,Prednisolone,5mg,15.00,Macleods Pharmaceuticals,Tablet
+Medrol 4mg,Methylprednisolone,4mg,68.00,Pfizer Ltd,Tablet
+Medrol 8mg,Methylprednisolone,8mg,125.00,Pfizer Ltd,Tablet
+Defcort 6,Deflazacort,6mg,115.00,Macleods Pharmaceuticals,Tablet
+Defnalone 6,Deflazacort,6mg,98.00,Lupin Ltd,Tablet
+Orthocort 6,Deflazacort,6mg,105.00,Mankind Pharma,Tablet
+Mahagaba 75,Pregabalin,75mg,185.00,Mankind Pharma,Capsule
+Pregabid 75,Pregabalin,75mg,210.00,Intas Pharmaceuticals,Capsule
+Pregalin 75,Pregabalin,75mg,195.00,Torrent Pharmaceuticals,Capsule
+Lyrica 75,Pregabalin,75mg,850.00,Pfizer Ltd,Capsule
+Maxgalin 75,Pregabalin,75mg,225.00,Sun Pharma,Capsule
+Gabapin 300,Gabapentin,300mg,240.00,Intas Pharmaceuticals,Capsule
+Gabantin 300,Gabapentin,300mg,210.00,Sun Pharma,Capsule
+Gabaneuron 300,Gabapentin and Methylcobalamin,300mg/500mcg,280.00,Aristo Pharmaceuticals,Tablet
+Pregabid M 75,Pregabalin and Methylcobalamin,75mg/750mcg,260.00,Intas Pharmaceuticals,Capsule
+Nurokind LC,L-Carnitine L-Tartrate and Methylcobalamin,500mg/1500mcg,210.00,Mankind Pharma,Tablet
+Nurokind Plus RF,Methylcobalamin Pyridoxine and Folic Acid,1500mcg/3mg/1.5mg,145.00,Mankind Pharma,Capsule
+Methylcobal 500,Methylcobalamin,500mcg,165.00,Eisai Pharmaceuticals,Tablet
+Methycobal 1500,Methylcobalamin,1500mcg,245.00,Eisai Pharmaceuticals,Tablet
+Rejunex CD,Methylcobalamin Alpha Lipoic Acid and Folic Acid,1500mcg/100mg/1.5mg,215.00,Dr Reddys Laboratories,Capsule
+Cobadex CZS,Multivitamin with Zinc and Chromium,Standard,105.00,GlaxoSmithKline,Tablet
+Zincovit Tablet,Multivitamin Multimineral and Zinc,Standard,118.00,Apex Laboratories,Tablet
+Supradyn Daily,Multivitamin with Minerals,Standard,62.00,Bayer India,Tablet
+A To Z NS,Multivitamin Multimineral and Astaxanthin,Standard,135.00,Alkem Laboratories,Tablet
+Revital H,Multivitamin with Ginseng,Standard,310.00,Sun Pharma,Capsule
+Limcee Chewable,Vitamin C,500mg,28.00,Abbott,Tablet
+Celin 500,Vitamin C,500mg,32.00,GlaxoSmithKline,Tablet
+Surbex XT,Iron Folic Acid Zinc and Vitamin B12,100mg/1.5mg/22.5mg,185.00,Abbott,Tablet
+Autrin Capsule,Ferrous Fumarate Folic Acid and Vitamin B12,Standard,142.00,Pfizer Ltd,Capsule
+Orofer XT,Ferrous Ascorbate and Folic Acid,100mg/1.5mg,175.00,Emcure Pharmaceuticals,Tablet
+Feronia XT,Ferrous Ascorbate and Folic Acid,100mg/1.5mg,168.00,Sun Pharma,Tablet
+Chericof Syrup,Dextromethorphan Chlorpheniramine and Phenylephrine,100ml,118.00,Sun Pharma,Syrup
+Alex Cough Syrup,Dextromethorphan Chlorpheniramine and Phenylephrine,100ml,132.00,Glenmark Pharmaceuticals,Syrup
+Grilinctus Syrup,Dextromethorphan Chlorpheniramine and Guaiphenesin,100ml,128.00,Franco Indian,Syrup
+Bro Zedex,Terbutaline Ambroxol Guaiphenesin and Menthol,100ml,140.00,Wockhardt Ltd,Syrup
+Asthalin Syrup,Salbutamol,2mg/5ml,22.00,Cipla Ltd,Syrup
+Mucolite Syrup,Ambroxol,30mg/5ml,68.00,Dr Reddys Laboratories,Syrup
+Ambrodil Syrup,Ambroxol,30mg/5ml,52.00,Aristo Pharmaceuticals,Syrup
+Solvin Cold,Paracetamol Phenylephrine and Chlorpheniramine,325mg/5mg/2mg,78.00,Ipca Laboratories,Tablet
+Sinarest Tablet,Paracetamol Phenylephrine and Chlorpheniramine,500mg/10mg/2mg,85.00,Centaur Pharmaceuticals,Tablet
+Wikoryl,Paracetamol Phenylephrine and Chlorpheniramine,500mg/5mg/2mg,72.00,Alembic Pharmaceuticals,Tablet
+Cheston Cold,Paracetamol Cetirizine and Phenylephrine,325mg/5mg/5mg,65.00,Cipla Ltd,Tablet
+Maxtra Syrup,Phenylephrine and Chlorpheniramine,60ml,98.00,Zuventus Healthcare,Syrup
+Febrex Plus,Paracetamol Phenylephrine and Chlorpheniramine,500mg/5mg/2mg,68.00,Indoco Remedies,Tablet
+Vicks Action 500,Paracetamol Diphenhydramine and Caffeine,500mg/25mg/30mg,45.00,Procter & Gamble,Tablet
+Otrivin Adult,Xylometazoline,0.1%,98.00,GlaxoSmithKline,Nasal Drop
+Nasivion Adult,Oxymetazoline,0.05%,112.00,Procter & Gamble,Nasal Drop
+Nasoclear Nasal Drop,Sodium Chloride,0.65%,62.00,Zydus Cadila,Nasal Drop
+Flomist Nasal Spray,Fluticasone Propionate,50mcg,380.00,Cipla Ltd,Nasal Spray
+Furonase Nasal Spray,Fluticasone Furoate,27.5mcg,420.00,Sun Pharma,Nasal Spray
+Cipladine Ointment,Povidone Iodine,5%,42.00,Cipla Ltd,Ointment
+Betadine Ointment,Povidone Iodine,10%,115.00,Win-Medicare,Ointment
+Neosporin Ointment,Neomycin Polymyxin B and Bacitracin,5g,88.00,GlaxoSmithKline,Ointment
+Soframycin Cream,Framycetin,1%,58.00,Sanofi India,Cream
+T-Bact Ointment,Mupirocin,2%,165.00,GlaxoSmithKline,Ointment
+Bactroban Ointment,Mupirocin,2%,180.00,GlaxoSmithKline,Ointment
+Burnol Cream,Aminacrine and Cetrimide,20g,75.00,Morepen Laboratories,Cream
+Silverex Ionic Gel,Silver Nitrate and Chlorhexidine,20g,125.00,Silverex Pharma,Gel
+Quadriderm RF,Beclomethasone Neomycin and Clotrimazole,10g,98.00,Sun Pharma,Cream
+Candid B Cream,Clotrimazole and Beclomethasone,20g,145.00,Glenmark Pharmaceuticals,Cream
+Candid Powder,Clotrimazole,1%,128.00,Glenmark Pharmaceuticals,Powder
+Absorb Dusting Powder,Clotrimazole,1%,135.00,Intas Pharmaceuticals,Powder
+Panderm Plus,Clobetasol Neomycin and Miconazole,15g,112.00,Macleods Pharmaceuticals,Cream
+Derma KT,Ketoconazole Neomycin and Tolnaftate,15g,95.00,Mankind Pharma,Cream
+Fourderm Cream,Clobetasol Neomycin Chlorhexidine and Ketoconazole,10g,105.00,Cipla Ltd,Cream
+Itaspor 100,Itraconazole,100mg,210.00,Intas Pharmaceuticals,Capsule
+Candiforce 200,Itraconazole,200mg,320.00,Mankind Pharma,Capsule
+Itracoe 200,Itraconazole,200mg,285.00,Abbott,Capsule
+Forcan 150,Fluconazole,150mg,32.00,Cipla Ltd,Tablet
+Syscan 150,Fluconazole,150mg,28.00,Unique Pharmaceutical,Tablet
+Zocon 150,Fluconazole,150mg,35.00,FDC Ltd,Tablet
+Terbinaforce 250,Terbinafine,250mg,185.00,Mankind Pharma,Tablet
+Tyza 250,Terbinafine,250mg,220.00,Abbott,Tablet
+Sebifin 250,Terbinafine,250mg,240.00,Sun Pharma,Tablet
+Lulifin Cream,Luliconazole,1%,280.00,Sun Pharma,Cream
+Lulican Cream,Luliconazole,1%,260.00,Glenmark Pharmaceuticals,Cream
+Ebernet Cream,Eberconazole,1%,210.00,1001 Pharma,Cream
+Atarax 25,Hydroxyzine,25mg,82.00,Dr Reddys Laboratories,Tablet
+Hicope 25,Hydroxyzine,25mg,65.00,Mankind Pharma,Tablet
+Avil 25,Pheniramine Maleate,25mg,11.50,Sanofi India,Tablet
+Avil 50,Pheniramine Maleate,50mg,18.00,Sanofi India,Tablet
+Phenergan 25,Promethazine,25mg,42.00,Abbott,Tablet
+Peritol,Cyproheptadine,4mg,38.00,Wockhardt Ltd,Tablet
+Ciplactin,Cyproheptadine,4mg,32.00,Cipla Ltd,Tablet
+Apetamin Syrup,Cyproheptadine and Lysine,200ml,125.00,Til Healthcare,Syrup
+Practin 4,Cyproheptadine,4mg,35.00,Wockhardt Ltd,Tablet
+Deriphyllin,Etofylline and Theophylline,77mg/23mg,32.00,Zydus Cadila,Tablet
+Deriphyllin Retard 150,Etofylline and Theophylline,115mg/35mg,45.00,Zydus Cadila,Tablet
+Theo Asthalin,Theophylline and Salbutamol,100mg/2mg,24.00,Cipla Ltd,Tablet
+Doxolin 400,Doxofylline,400mg,145.00,Zydus Cadila,Tablet
+Phyllocontin Continus 225,Aminophylline,225mg,62.00,Modi Mundipharma,Tablet
+Budecort 200 Inhaler,Budesonide,200mcg,380.00,Cipla Ltd,Inhaler
+Pulmicort 0.5,Budesonide,0.5mg/2ml,280.00,AstraZeneca,Respules
+Respsecure Respules,Budesonide,0.5mg/2ml,210.00,Mankind Pharma,Respules
+Duolin Respules,Levosalbutamol and Ipratropium,1.25mg/500mcg,310.00,Cipla Ltd,Respules
+Asthalin Respules,Salbutamol,2.5mg/2.5ml,145.00,Cipla Ltd,Respules
+Budez CR 3mg,Budesonide,3mg,320.00,Sun Pharma,Capsule
+Mesacol 800,Mesalamine,800mg,420.00,Sun Pharma,Tablet
+Saaz DS,Sulfasalazine,1000mg,380.00,Wallace Pharmaceuticals,Tablet
+Saaz 500,Sulfasalazine,500mg,210.00,Wallace Pharmaceuticals,Tablet
+Azoran 50,Azathioprine,50mg,280.00,RPG Life Sciences,Tablet
+Imuran 50,Azathioprine,50mg,340.00,GlaxoSmithKline,Tablet
+Cellcept 500,Mycophenolate Mofetil,500mg,890.00,Roche India,Tablet
+Mycept 500,Mycophenolate Mofetil,500mg,650.00,Cipla Ltd,Tablet
+Myfortic 360,Mycophenolate Sodium,360mg,920.00,Novartis India,Tablet
+Tacroz 1mg,Tacrolimus,1mg,580.00,Glenmark Pharmaceuticals,Capsule
+Pangraf 1mg,Tacrolimus,1mg,520.00,Panacea Biotec,Capsule
+Methorex 2.5,Methotrexate,2.5mg,62.00,Zydus Cadila,Tablet
+Folitrax 10,Methotrexate,10mg,185.00,Ipca Laboratories,Tablet
+Folitrax 7.5,Methotrexate,7.5mg,142.00,Ipca Laboratories,Tablet
+HCQS 200,Hydroxychloroquine,200mg,125.00,Ipca Laboratories,Tablet
+HCQS 400,Hydroxychloroquine,400mg,245.00,Ipca Laboratories,Tablet
+Lefno 10,Leflunomide,10mg,180.00,Cipla Ltd,Tablet
+Lefno 20,Leflunomide,20mg,310.00,Cipla Ltd,Tablet
+Enbrel 25mg,Etanercept,25mg,4500.00,Pfizer Ltd,Injection
+Humira 40mg,Adalimumab,40mg,18000.00,Abbott,Injection
+Exemptia 40mg,Adalimumab,40mg,7500.00,Zydus Cadila,Injection
+Zoledronic Acid 4mg,Zoledronic Acid,4mg/5ml,220.00,Cipla Ltd,Injection
+Aclasta 5mg,Zoledronic Acid,5mg/100ml,14500.00,Novartis India,Infusion
+Terifrac 600mcg,Teriparatide,600mcg/2.4ml,8500.00,Intas Pharmaceuticals,Injection
+Bonista Pen,Teriparatide,600mcg/2.4ml,7800.00,Sun Pharma,Injection
+Gemcal Capsule,Calcium Vitamin D3 and Minerals,Standard,280.00,Alkem Laboratories,Capsule
+Calcinol 500,Calcium and Vitamin D3,500mg/250IU,115.00,Franco Indian,Tablet
+Cipcal 500,Calcium and Vitamin D3,500mg/250IU,122.00,Cipla Ltd,Tablet
+Ostocalcium Plus,Calcium and Vitamin D3,500mg/400IU,185.00,GlaxoSmithKline,Tablet
+Tayo 60K,Cholecalciferol (Vitamin D3),60000IU,145.00,Eris Lifesciences,Capsule
+Uprise D3 60K,Cholecalciferol (Vitamin D3),60000IU,152.00,Alkem Laboratories,Capsule
+Calcirol Sachet,Cholecalciferol (Vitamin D3),60000IU,55.00,Cadila Pharmaceuticals,Sachet
+D3 Must 60K,Cholecalciferol (Vitamin D3),60000IU,135.00,Mankind Pharma,Tablet
+Lutivit Capsule,Lutein Zeaxanthin and Multivitamin,Standard,195.00,FDC Ltd,Capsule
+i-Site Capsule,Lutein Astaxanthin and Minerals,Standard,240.00,Sun Pharma,Capsule
+Macuvision,Antioxidants with Zinc and Minerals,Standard,210.00,Amneal Pharma,Tablet
+Ciplox Eye Drop,Ciprofloxacin,0.3%,18.50,Cipla Ltd,Eye Drop
+Cifran Eye Drop,Ciprofloxacin,0.3%,22.00,Sun Pharma,Eye Drop
+Oflox Eye Drop,Ofloxacin,0.3%,35.00,Cipla Ltd,Eye Drop
+Exocin Eye Drop,Ofloxacin,0.3%,48.00,Allergan India,Eye Drop
+Moxicip Eye Drop,Moxifloxacin,0.5%,92.00,Cipla Ltd,Eye Drop
+Vigamox Eye Drop,Moxifloxacin,0.5%,185.00,Alcon Laboratories,Eye Drop
+Mahaflox Eye Drop,Moxifloxacin,0.5%,88.00,Mankind Pharma,Eye Drop
+Tobastar Eye Drop,Tobramycin,0.3%,42.00,Mankind Pharma,Eye Drop
+Tobrex Eye Drop,Tobramycin,0.3%,145.00,Alcon Laboratories,Eye Drop
+Genticyn Eye Drop,Gentamicin,0.3%,14.00,Abbott,Eye Drop
+Refresh Tears,Carboxymethylcellulose,0.5%,165.00,Allergan India,Eye Drop
+Tears Naturale II,Hydroxypropyl Methylcellulose,0.3%,210.00,Alcon Laboratories,Eye Drop
+Epitears Eye Drop,Carboxymethylcellulose,0.5%,115.00,Micro Labs Ltd,Eye Drop
+Lubistar Eye Drop,Carboxymethylcellulose,0.5%,125.00,Mankind Pharma,Eye Drop
+Optive Eye Drop,Carboxymethylcellulose and Glycerin,0.5%/0.9%,245.00,Allergan India,Eye Drop
+Xalatan Eye Drop,Latanoprost,0.005%,780.00,Pfizer Ltd,Eye Drop
+Latapres Eye Drop,Latanoprost,0.005%,420.00,Cipla Ltd,Eye Drop
+Travatan Eye Drop,Travoprost,0.004%,890.00,Alcon Laboratories,Eye Drop
+Timolol 0.5% Eye Drop,Timolol,0.5%,45.00,Cipla Ltd,Eye Drop
+Iptimod 0.5% Eye Drop,Timolol,0.5%,38.00,FDC Ltd,Eye Drop
+Brimodin Eye Drop,Brimonidine,0.2%,210.00,Cipla Ltd,Eye Drop
+Alphagan P Eye Drop,Brimonidine,0.15%,480.00,Allergan India,Eye Drop
+DorzoTey Eye Drop,Dorzolamide and Timolol,2%/0.5%,340.00,Lupin Ltd,Eye Drop
+Clearwax Ear Drop,Paradichlorobenzene Benzocaine and Chlorbutol,2%/2.7%/1%,78.00,Cipla Ltd,Ear Drop
+Waxonil Ear Drop,Paradichlorobenzene Benzocaine and Chlorbutol,2%/2.7%/1%,65.00,Geno Pharma,Ear Drop
+Otorex Ear Drop,Paradichlorobenzene Benzocaine and Chlorbutol,2%/2.7%/1%,72.00,Mankind Pharma,Ear Drop
+Candibiotic Ear Drop,Clotrimazole Chloramphenicol and Lignocaine,1%/5%/2%,92.00,Glenmark Pharmaceuticals,Ear Drop
+Genticyn HC Ear Drop,Gentamicin and Hydrocortisone,0.3%/1%,45.00,Abbott,Ear Drop
+Sofradex Ear Drop,Framycetin Dexamethasone and Gramicidin,0.5%/0.05%/0.005%,68.00,Sanofi India,Ear Drop
+Candid Ear Drop,Clotrimazole and Lignocaine,1%/2%,82.00,Glenmark Pharmaceuticals,Ear Drop
+Otek AC Ear Drop,Beclomethasone and Clotrimazole,0.025%/1%,75.00,FDC Ltd,Ear Drop
+Betnovate C Cream,Betamethasone and Clioquinol,0.1%/3%,62.00,GlaxoSmithKline,Cream
+Betnovate N Cream,Betamethasone and Neomycin,0.1%/0.5%,58.00,GlaxoSmithKline,Cream
+Betnovate GM Cream,Betamethasone Gentamicin and Miconazole,0.1%/0.1%/2%,48.00,GlaxoSmithKline,Cream
+Tenovate Cream,Clobetasol Propionate,0.05%,115.00,GlaxoSmithKline,Cream
+Clobetamil G Cream,Clobetasol and Gentamicin,0.05%/0.1%,38.00,Abbott,Cream
+Eumovate Cream,Clobetasone Butyrate,0.05%,98.00,GlaxoSmithKline,Cream
+Cosvate G Cream,Clobetasol and Gentamicin,0.05%/0.1%,45.00,Adcock Ingram,Cream
+Topinate Cream,Clobetasol Propionate,0.05%,88.00,Zydus Cadila,Cream
+Lobate Cream,Clobetasol Propionate,0.05%,92.00,Abbott,Cream
+Powercort Cream,Clobetasol Propionate,0.05%,78.00,Glenmark Pharmaceuticals,Cream
+Dermi 5 Cream,Clobetasol Tolnaftate Neomycin Ketoconazole,Standard,85.00,Universal Twin,Cream
+Cutisoft Cream,Hydrocortisone,1%,42.00,Cipla Ltd,Cream
+Hcort 1% Cream,Hydrocortisone,1%,38.00,Mankind Pharma,Cream
+Elocon Cream,Mometasone Furoate,0.1%,220.00,Organon India,Cream
+Momate Cream,Mometasone Furoate,0.1%,185.00,Glenmark Pharmaceuticals,Cream
+Metosafety Cream,Mometasone Furoate,0.1%,145.00,Mankind Pharma,Cream
+Momecon Cream,Mometasone Furoate,0.1%,160.00,Cipla Ltd,Cream
+Flucort Cream,Fluocinolone Acetonide,0.025%,68.00,Glenmark Pharmaceuticals,Cream
+Flutivate Cream,Fluticasone Propionate,0.05%,195.00,GlaxoSmithKline,Cream
+Tacroz Forte Ointment,Tacrolimus,0.1%,380.00,Glenmark Pharmaceuticals,Ointment
+Protopic 0.1% Ointment,Tacrolimus,0.1%,820.00,Leo Pharma,Ointment
+Tacmod 0.03% Ointment,Tacrolimus,0.03%,240.00,Cipla Ltd,Ointment
+Hapenz Syrup,Cyproheptadine Tricholine and Sorbitol,200ml,145.00,Alembic Pharmaceuticals,Syrup
+Cypon Syrup,Cyproheptadine and Tricholine Citrate,200ml,138.00,Geno Pharma,Syrup
+Apetamin Cap,Cyproheptadine Lysine and Vitamins,Standard,85.00,Til Healthcare,Capsule
+B-Long Tablet,Pyridoxine (Vitamin B6),100mg,72.00,Sanofi India,Tablet
+Neurobion Plus,Mechanically Active B-Complex Vitamins,Standard,125.00,Procter & Gamble,Tablet
+Cobadex Forte,High Potency B-Complex with Vitamin C,Standard,88.00,GlaxoSmithKline,Capsule
+Polychem Syrup,Multivitamin and Minerals,200ml,110.00,Chemo Healthcare,Syrup
+Dexorange Syrup,Ferric Ammonium Citrate Folic Acid and B12,200ml,172.00,Franco Indian,Syrup
+Haem Up Liquid,Iron Folic Acid and Vitamin B12,200ml,165.00,Cadila Pharmaceuticals,Syrup
+Fefol Capsule,Ferrous Sulfate and Folic Acid,150mg/0.5mg,82.00,GlaxoSmithKline,Capsule
+Livogen Z,Ferrous Fumarate Folic Acid and Zinc,152mg/1500mcg/22.5mg,98.00,Procter & Gamble,Tablet
+Autrin Suspension,Ferrous Fumarate and Folic Acid,170ml,115.00,Pfizer Ltd,Syrup
+RB Tone Syrup,Iron Folic Acid Vitamin B12 and Calcium,200ml,158.00,Medley Pharmaceuticals,Syrup
+Iberet Folic 500,Iron Vitamin C B-Complex and Folic Acid,Standard,280.00,Abbott,Tablet
+Tonoferon Syrup,Iron Folic Acid and Vitamin B12,200ml,142.00,East India Pharmaceutical,Syrup
+Heptaglobin Syrup,Iron Folic Acid and Liver Extract,200ml,168.00,Raptakos Brett,Syrup
+Sharkoferrol Liquid,Malt Extract with Iron Calcium and Vitamins,450g,245.00,Alembic Pharmaceuticals,Syrup
+Zincofine Tablet,Zinc Sulfate,20mg,42.00,Mankind Pharma,Tablet
+Zinconia 50,Zinc Sulfate,50mg,58.00,FDC Ltd,Tablet
+Zinc 20 Tablet,Zinc Sulfate,20mg,35.00,Cipla Ltd,Tablet
+Ostokal M,Calcium Vitamin D3 Minerals and Glycine,Standard,165.00,Geno Pharma,Tablet
+Shellcal HD,Calcium 500mg and Vitamin D3 500IU,500mg/500IU,168.00,Torrent Pharmaceuticals,Tablet
+Cipcal HD,Calcium 500mg and Vitamin D3 500IU,500mg/500IU,175.00,Cipla Ltd,Tablet
+Calcimax 500,Calcium Vitamin D3 Magnesium and Zinc,500mg/200IU,158.00,Meyer Organics,Tablet
+Gemcal D3,Calcium Carbonate and Vitamin D3,500mg/250IU,142.00,Alkem Laboratories,Tablet
+Corcium,Calcium Coral and Vitamin D3,500mg/400IU,210.00,Zydus Cadila,Tablet
+Sapat Lotion,Salicylic Acid and Benzoic Acid,12ml,35.00,Sapat & Co,Lotion
+Ring Guard Cream,Miconazole and Neomycin,12g,78.00,Paras Pharmaceuticals,Cream
+Itch Guard Cream,Terbinafine and Menthol,12g,85.00,Paras Pharmaceuticals,Cream
+Zovirax Cream,Acyclovir,5%,145.00,GlaxoSmithKline,Cream
+Herperax Ointment,Acyclovir,5%,92.00,Micro Labs Ltd,Ointment
+Acivir Cream,Acyclovir,5%,88.00,Cipla Ltd,Cream
+Valcivir 1000,Valacyclovir,1000mg,480.00,Cipla Ltd,Tablet
+Valamac 500,Valacyclovir,500mg,290.00,Mankind Pharma,Tablet
+Famtrex 250,Famciclovir,250mg,310.00,Cipla Ltd,Tablet
+Osetron 4,Ondansetron,4mg,52.00,Cipla Ltd,Tablet
+Emeset 4,Ondansetron,4mg,48.00,Cipla Ltd,Tablet
+Vomikind 4,Ondansetron,4mg,38.00,Mankind Pharma,Tablet
+Zofer 4,Ondansetron,4mg,58.00,Sun Pharma,Tablet
+Ondem 4,Ondansetron,4mg,42.00,Alkem Laboratories,Tablet
+Perinorm,Metoclopramide,10mg,14.50,Ipca Laboratories,Tablet
+Vominorm 10,Metoclopramide,10mg,12.00,Cipla Ltd,Tablet
+Domstal 10,Domperidone,10mg,32.00,Torrent Pharmaceuticals,Tablet
+Vomiplus 10,Domperidone,10mg,24.00,Mankind Pharma,Tablet
+Stugeron 25,Cinnarizine,25mg,142.00,Janssen Pharmaceuticals,Tablet
+Vertiron 25,Cinnarizine,25mg,88.00,Cipla Ltd,Tablet
+Cinzan 25,Cinnarizine,25mg,95.00,FDC Ltd,Tablet
+Vertin 16,Betahistine,16mg,210.00,Abbott,Tablet
+Betahist 16,Betahistine,16mg,125.00,Cipla Ltd,Tablet
+Vertipress 16,Betahistine,16mg,140.00,Sun Pharma,Tablet
+Ginkocer 40,Ginkgo Biloba Extract,40mg,185.00,Micro Labs Ltd,Tablet
+Ginkocer Plus,Ginkgo Biloba and Vinpocetine,40mg/5mg,260.00,Micro Labs Ltd,Tablet
+Piracetam 800,Piracetam,800mg,165.00,Micro Labs Ltd,Tablet
+Nootropil 800,Piracetam,800mg,240.00,Ucb India,Tablet
+Normabrain 800,Piracetam,800mg,180.00,Torrent Pharmaceuticals,Tablet
+Citistar 500,Citicoline,500mg,580.00,Lupin Ltd,Tablet
+Strocit 500,Citicoline,500mg,640.00,Sun Pharma,Tablet
+Critifib 500,Citicoline,500mg,520.00,Mankind Pharma,Tablet
+Somazina 500,Citicoline,500mg,690.00,Ferrer India,Tablet
+Sibelium 10,Flunarizine,10mg,165.00,Janssen Pharmaceuticals,Tablet
+Flunarin 10,Flunarizine,10mg,92.00,FDC Ltd,Tablet
+Migon 10,Flunarizine,10mg,85.00,Cadila Pharmaceuticals,Tablet
+Vasograin,Ergotamine Caffeine Paracetamol and Prochlorperazine,1mg/100mg/250mg/2.5mg,115.00,Cadila Pharmaceuticals,Tablet
+Rizatrip 10,Rizatriptan,10mg,185.00,Cipla Ltd,Tablet
+Rizact 10,Rizatriptan,10mg,210.00,Cipla Ltd,Tablet
+Natrise 15,Tolvaptan,15mg,1450.00,Sun Pharma,Tablet
+Resdim 15,Tolvaptan,15mg,1200.00,Cipla Ltd,Tablet
+Aldactone 25,Spironolactone,25mg,42.00,RPG Life Sciences,Tablet
+Lasilactone 50,Furosemide and Spironolactone,20mg/50mg,62.00,Sanofi India,Tablet
+Lasix 40,Furosemide,40mg,12.50,Sanofi India,Tablet
+Fruselac,Furosemide and Spironolactone,20mg/50mg,55.00,Lupin Ltd,Tablet
+Dytor 10,Torsemide,10mg,88.00,Cipla Ltd,Tablet
+Torsine 10,Torsemide,10mg,65.00,Mankind Pharma,Tablet
+Torget 10,Torsemide,10mg,72.00,Zydus Cadila,Tablet
+Dytor Plus 10,Torsemide and Spironolactone,10mg/50mg,145.00,Cipla Ltd,Tablet
+Arkamin,Clonidine,100mcg,58.00,Torrent Pharmaceuticals,Tablet
+Catapres,Clonidine,100mcg,72.00,Boehringer Ingelheim,Tablet
+Alphadopa 250,Methyldopa,250mg,112.00,Wockhardt Ltd,Tablet
+Wepox 4000,Epoetin Alfa,4000IU,1250.00,Wockhardt Ltd,Injection
+Eprex 4000,Epoetin Alfa,4000IU,1650.00,Janssen Pharmaceuticals,Injection
+Zyrop 4000,Epoetin Alfa,4000IU,1100.00,Zydus Cadila,Injection
+Relipoietin 4000,Epoetin Alfa,4000IU,980.00,Reliance Life Sciences,Injection
+Mircera 100,Methoxy Polyethylene Glycol-Epoetin Beta,100mcg,4200.00,Roche India,Injection
+Acarbose 50,Acarbose,50mg,125.00,Cipla Ltd,Tablet
+Glucobay 50,Acarbose,50mg,185.00,Bayer India,Tablet
+Asmreb 50,Acarbose,50mg,110.00,Mankind Pharma,Tablet
+Voglistar MD 0.2,Voglibose,0.2mg,88.00,Mankind Pharma,Tablet
+Voglimac 0.2,Voglibose,0.2mg,75.00,Macleods Pharmaceuticals,Tablet
+Volibo 0.2,Voglibose,0.2mg,95.00,Sun Pharma,Tablet
+Voblitz 0.2,Voglibose,0.2mg,65.00,Dr Reddys Laboratories,Tablet
+Zoryl M2,Glimepiride and Metformin,2mg/500mg,128.00,Intas Pharmaceuticals,Tablet
+Glimisave M2,Glimepiride and Metformin,2mg/500mg,115.00,Eris Lifesciences,Tablet
+Gemer 2,Glimepiride and Metformin,2mg/500mg,135.00,Sun Pharma,Tablet
+Duotrol,Glipizide and Metformin,5mg/500mg,62.00,Torrent Pharmaceuticals,Tablet
+Glycorip,Glibenclamide and Metformin,5mg/500mg,45.00,Cipla Ltd,Tablet
+Daonil,Glibenclamide,5mg,18.00,Sanofi India,Tablet
+Semi Daonil,Glibenclamide,2.5mg,12.00,Sanofi India,Tablet
+Diamicron XR 60,Gliclazide,60mg,210.00,Servier India,Tablet
+Glycinorm 80,Gliclazide,80mg,125.00,USV Ltd,Tablet
+Reclide MR 60,Gliclazide,60mg,165.00,Mankind Pharma,Tablet
+Glymet 80,Gliclazide and Metformin,80mg/500mg,110.00,USV Ltd,Tablet
+Pioz 15,Pioglitazone,15mg,65.00,USV Ltd,Tablet
+Pioglit 15,Pioglitazone,15mg,58.00,Sun Pharma,Tablet
+Piosys 15,Pioglitazone,15mg,48.00,Cipla Ltd,Tablet
+Pioz MF 15,Pioglitazone and Metformin,15mg/500mg,115.00,USV Ltd,Tablet
+Tenepure 20,Teneligliptin,20mg,110.00,Unichem Laboratories,Tablet
+Ziten 20,Teneligliptin,20mg,125.00,Glenmark Pharmaceuticals,Tablet
+Dynaglipt 20,Teneligliptin,20mg,98.00,Mankind Pharma,Tablet
+Teneza 20,Teneligliptin,20mg,85.00,Cipla Ltd,Tablet
+Galvus 50,Vildagliptin,50mg,240.00,Novartis India,Tablet
+Zomelis 50,Vildagliptin,50mg,185.00,Abbott,Tablet
+Jalra 50,Vildagliptin,50mg,210.00,USV Ltd,Tablet
+Vysov 50,Vildagliptin,50mg,165.00,Intas Pharmaceuticals,Tablet
+Januvia 100,Sitagliptin,100mg,380.00,MSD Pharmaceuticals,Tablet
+Istavel 100,Sitagliptin,100mg,320.00,Sun Pharma,Tablet
+Onglyza 5,Saxagliptin,5mg,420.00,AstraZeneca,Tablet
+Trajenta 5,Linagliptin,5mg,480.00,Boehringer Ingelheim,Tablet
+Ajaduo 10/5,Empagliflozin and Linagliptin,10mg/5mg,890.00,Boehringer Ingelheim,Tablet
+Xigduo XR 10/1000,Dapagliflozin and Metformin,10mg/1000mg,950.00,AstraZeneca,Tablet
+Oxra 10,Dapagliflozin,10mg,680.00,Sun Pharma,Tablet
+Dapa 10,Dapagliflozin,10mg,520.00,Intas Pharmaceuticals,Tablet
+Dapavel 10,Dapagliflozin,10mg,480.00,Glenmark Pharmaceuticals,Tablet
+Soliqa 100/33,Insulin Glargine and Lixisenatide,100IU/33mcg,2100.00,Sanofi India,Injection
+Lantus Solostar,Insulin Glargine,100IU/ml,680.00,Sanofi India,Injection
+Basalog Pen,Insulin Glargine,100IU/ml,520.00,Biocon,Injection
+Toujeo Solostar,Insulin Glargine,300U/ml,1250.00,Sanofi India,Injection
+Tresiba FlexTouch,Insulin Degludec,100U/ml,1450.00,Novo Nordisk,Injection
+Ryzodeg FlexTouch,Insulin Degludec and Insulin Aspart,100U/ml,1650.00,Novo Nordisk,Injection
+Novorapid FlexTouch,Insulin Aspart,100U/ml,580.00,Novo Nordisk,Injection
+Humalog KwikPen,Insulin Lispro,100U/ml,620.00,Eli Lilly,Injection
+Apidra Solostar,Insulin Glulisine,100U/ml,550.00,Sanofi India,Injection
+Mixtard 30 FlexPen,Biphasic Isophane Insulin,100IU/ml,390.00,Novo Nordisk,Injection
+Huminsulin 30/70,Biphasic Isophane Insulin,100IU/ml,340.00,Eli Lilly,Injection
+Insugen 30/70,Biphasic Isophane Insulin,100IU/ml,280.00,Biocon,Injection
+Actrapid Penfill,Regular Soluble Insulin,100IU/ml,210.00,Novo Nordisk,Injection
+Insulatard Penfill,Isophane Insulin,100IU/ml,220.00,Novo Nordisk,Injection
+Victoza 6mg/ml,Liraglutide,6mg/ml,4500.00,Novo Nordisk,Injection
+Rybelsus 7mg,Semaglutide,7mg,3200.00,Novo Nordisk,Tablet
+Trulicity 1.5mg,Dulaglutide,1.5mg,2400.00,Eli Lilly,Injection
+Ozempic 1mg,Semaglutide,1mg,8900.00,Novo Nordisk,Injection
+Eltroxin 25,Thyroxine Sodium,25mcg,125.00,GlaxoSmithKline,Tablet
+Eltroxin 50,Thyroxine Sodium,50mcg,145.00,GlaxoSmithKline,Tablet
+Eltroxin 75,Thyroxine Sodium,75mcg,160.00,GlaxoSmithKline,Tablet
+Eltroxin 100,Thyroxine Sodium,100mcg,180.00,GlaxoSmithKline,Tablet
+Thyronorm 25,Thyroxine Sodium,25mcg,110.00,Abbott,Tablet
+Thyronorm 50,Thyroxine Sodium,50mcg,130.00,Abbott,Tablet
+Thyronorm 75,Thyroxine Sodium,75mcg,145.00,Abbott,Tablet
+Thyronorm 100,Thyroxine Sodium,100mcg,165.00,Abbott,Tablet
+Thyrox 50,Thyroxine Sodium,50mcg,98.00,Macleods Pharmaceuticals,Tablet
+Thyrox 100,Thyroxine Sodium,100mcg,120.00,Macleods Pharmaceuticals,Tablet
+Neomercazole 5,Carbimazole,5mg,142.00,Abbott,Tablet
+Carbimazole 10,Carbimazole,10mg,210.00,Cipla Ltd,Tablet
+Thyrocab 5,Carbimazole,5mg,115.00,Mankind Pharma,Tablet
+Propylthiouracil 50,Propylthiouracil,50mg,340.00,Macleods Pharmaceuticals,Tablet
+Kabiven Peripheral,Amino Acids Glucose and Lipid Emulsion,1000ml,2800.00,Fresenius Kabi,Infusion
+Smoflipid 20%,Lipid Emulsion,500ml,1850.00,Fresenius Kabi,Infusion
+Aminoven 10%,Amino Acid Infusion,500ml,620.00,Fresenius Kabi,Infusion
+Astymin SN,Essential Amino Acids with Vitamins,200ml,380.00,Tillotts Pharma,Infusion
+Albu-Rel 20%,Human Albumin,100ml,4200.00,Reliance Life Sciences,Infusion
+Human Albumin 20%,Human Albumin,100ml,4500.00,Biotest,Infusion
+Plasmanate,Plasma Protein Fraction,250ml,3200.00,Grifols India,Infusion
+Haemaccel,Polygelin,500ml,480.00,Nicholas Piramal,Infusion
+Voluven 6%,Hydroxyethyl Starch,500ml,650.00,Fresenius Kabi,Infusion
+Refludan 50mg,Lepirudin,50mg,12500.00,Bayer India,Injection
+Clexane 40mg,Enoxaparin,40mg/0.4ml,580.00,Sanofi India,Injection
+Lenocta 40mg,Enoxaparin,40mg/0.4ml,420.00,Cipla Ltd,Injection
+Encrate 40mg,Enoxaparin,40mg/0.4ml,380.00,Zydus Cadila,Injection
+Grapaflo 40mg,Enoxaparin,40mg/0.4ml,350.00,Mankind Pharma,Injection
+Heparin 5000IU,Heparin Sodium,5000IU/ml,145.00,Biological E,Injection
+Bivalirudin 250mg,Bivalirudin,250mg,4200.00,Reliance Life Sciences,Injection
+Fondaparinux 2.5mg,Fondaparinux Sodium,2.5mg/0.5ml,850.00,Reddys Laboratories,Injection
+Arixtra 2.5mg,Fondaparinux Sodium,2.5mg/0.5ml,1250.00,GlaxoSmithKline,Injection
+Acitrom 2,Nicoumalone (Acenocoumarol),2mg,240.00,Abbott,Tablet
+Acitrom 3,Nicoumalone (Acenocoumarol),3mg,320.00,Abbott,Tablet
+Warf 5,Warfarin,5mg,88.00,Cipla Ltd,Tablet
+Xarelto 10,Rivaroxaban,10mg,1450.00,Bayer India,Tablet
+Ixarola 10,Rivaroxaban,10mg,980.00,Cipla Ltd,Tablet
+Rivarox 10,Rivaroxaban,10mg,850.00,Mankind Pharma,Tablet
+Eliquis 2.5,Apixaban,2.5mg,1280.00,Pfizer Ltd,Tablet
+Apigat 2.5,Apixaban,2.5mg,780.00,Natco Pharma,Tablet
+Pradaxa 110,Dabigatran Etexilate,110mg,1850.00,Boehringer Ingelheim,Tablet
+Dabigo 110,Dabigatran Etexilate,110mg,950.00,Zydus Cadila,Tablet
+Streptase 15 Lac,Streptokinase,1500000IU,2400.00,Sanofi India,Injection
+STK 15 Lac,Streptokinase,1500000IU,1800.00,Reliance Life Sciences,Injection
+Actilyse 50mg,Alteplase,50mg,42000.00,Boehringer Ingelheim,Injection
+Metalyse 40mg,Tenecteplase,40mg,28000.00,Boehringer Ingelheim,Injection
+Elaxim 40mg,Tenecteplase,40mg,24000.00,Gennova Biopharmaceuticals,Injection
+Botox 100IU,OnabotulinumtoxinA,100IU,18500.00,Allergan India,Injection
+Dysport 500U,AbobotulinumtoxinA,500U,21000.00,Ipsen India,Injection
+Lignocaine 2%,Lidocaine,2%,32.00,AstraZeneca,Injection
+LOX 2% Jelly,Lidocaine,2%,48.00,Neon Laboratories,Gel
+Xylocaine 2%,Lidocaine,2%,45.00,Zydus Cadila,Injection
+Anawin 0.5%,Bupivacaine,0.5%,68.00,Neon Laboratories,Injection
+Sensorcaine 0.5%,Bupivacaine,0.5%,85.00,AstraZeneca,Injection
+Propofol 1%,Propofol,10mg/ml,185.00,Fresenius Kabi,Injection
+Fresofol 1%,Propofol,10mg/ml,165.00,Fresenius Kabi,Injection
+Neothyl 100ml,Isoflurane,100ml,1450.00,Neon Laboratories,Inhalation
+Forane 100ml,Isoflurane,100ml,1850.00,Abbott,Inhalation
+Sevorane 250ml,Sevoflurane,250ml,8500.00,Abbott,Inhalation
+Ketamin 50mg,Ketamine,50mg/ml,65.00,Neon Laboratories,Injection
+Ketalar 50mg,Ketamine,50mg/ml,95.00,Pfizer Ltd,Injection
+Thiosol 1g,Thiopental Sodium,1g,88.00,Neon Laboratories,Injection
+Calmpose 10mg,Diazepam,10mg/2ml,18.00,Ranbaxy Laboratories,Injection
+Valium 10mg,Diazepam,10mg/2ml,28.00,Roche India,Injection
+Midazolam 5mg,Midazolam,5mg/5ml,42.00,Neon Laboratories,Injection
+Mezolam 5mg,Midazolam,5mg/5ml,38.00,Cipla Ltd,Injection
+Fentanyl 100mcg,Fentanyl,100mcg/2ml,85.00,Neon Laboratories,Injection
+Troponin I Kit,Rapid Cardiac Marker Kit,1 Test,350.00,Abbott,Diagnostic
+Accu-Chek Active Strips,Blood Glucose Test Strips,50 Strips,975.00,Roche India,Diagnostic
+OneTouch Select Plus,Blood Glucose Test Strips,50 Strips,1150.00,Lifescan,Diagnostic
+Contour Plus Strips,Blood Glucose Test Strips,50 Strips,1050.00,Ascensia,Diagnostic
+Dr Trust Glucose Strips,Blood Glucose Test Strips,50 Strips,650.00,Dr Trust,Diagnostic
