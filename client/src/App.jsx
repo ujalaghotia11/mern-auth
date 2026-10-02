@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import SignUp from './components/SignUp';
 import Dashboard from './components/Dashboard';
-import MedicineSearch from './components/MedicineSearch'; // Step 3 wala MedicineSearch import karein
+// import MedicineSearch from './components/MedicineSearch'; // Step 3 wala MedicineSearch import karein
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -24,7 +24,7 @@ function App() {
           <hr />
           
           {/* Medicine Search Component Login hone ke baad yahan dikhega */}
-          <MedicineSearch />
+          {/* <MedicineSearch /> */}
         </div>
       ) : (
         <SignUp onLoginSuccess={handleLoginSuccess} />
