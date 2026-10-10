@@ -24,7 +24,6 @@ router.post('/chat', async (req, res) => {
     res.status(200).json({ reply: text });
   } catch (error) {
     console.error("Detailed AI Chat Error:", error);
-    // Return exact error message for debugging
     res.status(500).json({ 
       message: "Failed to generate AI response", 
       error: error.message || "Unknown error" 
