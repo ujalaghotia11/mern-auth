@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import axios from 'axios';
 
+// Netlify ke liye environment variable ya fallback localhost
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
 function AuthForm({ onLoginSuccess }) {
   const [isSignUp, setIsSignUp] = useState(true);
   const [formData, setFormData] = useState({
@@ -46,7 +49,7 @@ function AuthForm({ onLoginSuccess }) {
     try {
       if (isSignUp) {
         // Sign Up Flow
-        const res = await axios.post('http://localhost:5000/api/auth/register', formData);
+        const res = await axios.post(`${API_URL}/api/auth/register`, formData);
         setMessage(res.data.message || 'Account created successfully!');
         
         setTimeout(() => {
@@ -56,12 +59,12 @@ function AuthForm({ onLoginSuccess }) {
         }, 1500);
       } else {
         // Sign In Flow
-        const res = await axios.post('http://localhost:5000/api/auth/login', {
+        const res = await axios.post(`${API_URL}/api/auth/login`, {
           email: formData.email,
           password: formData.password
         });
 
-        // YE MAIN STEP HAI: User Data milte hi App.jsx me State Update Karein
+        // User Data milte hi App.jsx me State Update Karein
         if (onLoginSuccess && res.data.user) {
           onLoginSuccess(res.data.user);
         }
