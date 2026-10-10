@@ -1,7 +1,9 @@
 import { createWorker } from 'tesseract.js';
 import { useState, useEffect, useRef } from 'react';
 
-const API_URL = 'http://localhost:5000/api/medicines/search?query=';
+// Netlify ke liye environment variable ya fallback localhost
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = `${BACKEND_URL}/api/medicines/search?query=`;
 
 /* ---------------------------------------------------------------
    API response -> UI model
@@ -46,7 +48,7 @@ const T = {
     searching: 'Searching the medicine database…',
     scanning: 'Reading text from your photo…',
     errorTitle: 'Cannot reach the server',
-    errorBody: 'Make sure the backend is running on localhost:5000, then try again.',
+    errorBody: 'Make sure the backend is running, then try again.',
     noResultsTitle: 'No matching medicine found',
     noResultsBody: 'Check the spelling or try the salt name instead.',
     idleTitle: 'Find a cheaper equivalent',
@@ -82,7 +84,7 @@ const T = {
     searching: 'दवा डेटाबेस में खोजा जा रहा है…',
     scanning: 'फोटो से टेक्स्ट पढ़ा जा रहा है…',
     errorTitle: 'सर्वर से कनेक्ट नहीं हो पाया',
-    errorBody: 'सुनिश्चित करें कि बैकएंड localhost:5000 पर चल रहा है, फिर दोबारा कोशिश करें।',
+    errorBody: 'सुनिश्चित करें कि बैकएंड चालू है, फिर दोबारा कोशिश करें।',
     noResultsTitle: 'कोई मिलती-जुलती दवा नहीं मिली',
     noResultsBody: 'स्पेलिंग जांचें या दवा के सॉल्ट का नाम लिखकर देखें।',
     idleTitle: 'सस्ता विकल्प खोजें',
@@ -295,7 +297,6 @@ function Dashboard({ user, onLogout }) {
       const ret = await worker.recognize(file);
       await worker.terminate();
 
-      // first line that actually contains a few letters
       const line = ret.data.text
         .split('\n')
         .map((l) => l.replace(/[^a-zA-Z0-9\s-]/g, '').trim())
@@ -336,7 +337,6 @@ function Dashboard({ user, onLogout }) {
           </div>
 
           <div className="ds-header-actions">
-            {/* Language toggle */}
             <div className="ds-lang" role="group" aria-label="Language">
               <button
                 type="button"
@@ -356,7 +356,6 @@ function Dashboard({ user, onLogout }) {
               </button>
             </div>
 
-            {/* Profile */}
             <div className="ds-profile" ref={menuRef}>
               <button
                 type="button"
@@ -399,7 +398,6 @@ function Dashboard({ user, onLogout }) {
           <h1 className="ds-title">{t.heroTitle}</h1>
           <p className="ds-sub">{t.heroSub}</p>
 
-          {/* Search */}
           <div className={`ds-search ${busy ? 'is-busy' : ''}`}>
             <span className="ds-search-icon">
               <Icon name="search" size={20} />
@@ -507,7 +505,6 @@ function Dashboard({ user, onLogout }) {
 
             return (
               <article key={m.id} className="ds-card">
-                {/* Brand header */}
                 <div className="ds-card-head">
                   <div>
                     <h2>{m.brand}</h2>
@@ -521,7 +518,6 @@ function Dashboard({ user, onLogout }) {
 
                 {m.hasGeneric ? (
                   <>
-                    {/* Price comparison */}
                     <div className="ds-compare">
                       <div className="ds-side ds-side-brand">
                         <span className="ds-side-label">{t.brandLabel}</span>
@@ -547,15 +543,12 @@ function Dashboard({ user, onLogout }) {
                       </div>
                     </div>
 
-                    {/* Savings meter */}
                     <div className="ds-meter">
                       <div className="ds-meter-track">
                         <div className="ds-meter-fill" style={{ width: `${ratio}%` }} />
                       </div>
                       <div className="ds-meter-row">
-                        <span>
-                          {t.youSave}
-                        </span>
+                        <span>{t.youSave}</span>
                         <strong>₹{m.savingsAmount}</strong>
                       </div>
                     </div>
@@ -606,7 +599,6 @@ const css = `
 .ds-root button { font-family: inherit; cursor: pointer; }
 .ds-root :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 
-/* ---- header ---- */
 .ds-header {
   position: sticky; top: 0; z-index: 20;
   background: rgba(255,255,255,0.9);
@@ -663,7 +655,6 @@ const css = `
 }
 .ds-menu-out:hover { background: var(--danger-tint); }
 
-/* ---- hero ---- */
 .ds-hero {
   background:
     radial-gradient(900px 300px at 85% -10%, rgba(227,154,31,.14), transparent 60%),
@@ -689,7 +680,6 @@ const css = `
 .ds-root[lang='hi'] .ds-title { letter-spacing: 0; line-height: 1.25; }
 .ds-sub { margin: 0 0 30px; max-width: 580px; color: var(--muted); font-size: 16.5px; line-height: 1.6; }
 
-/* ---- search ---- */
 .ds-search {
   display: flex; align-items: center; gap: 4px;
   background: var(--surface); border: 1.5px solid var(--line);
@@ -719,7 +709,6 @@ const css = `
 .ds-tool.is-live { background: var(--danger); color: #fff; animation: ds-pulse 1.2s infinite; }
 @keyframes ds-pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(180,35,24,.45);} 50% { box-shadow: 0 0 0 8px rgba(180,35,24,0);} }
 
-/* ---- main ---- */
 .ds-main { max-width: 720px; margin: 32px auto 0; padding: 0 20px; }
 
 .ds-status {
@@ -753,7 +742,6 @@ const css = `
 }
 @keyframes ds-spin { to { transform: rotate(360deg); } }
 
-/* ---- result card ---- */
 .ds-card {
   background: var(--surface); border: 1px solid var(--line);
   border-radius: 20px; padding: 26px; margin-bottom: 20px;
@@ -813,7 +801,6 @@ const css = `
   font-size: 12.5px; color: var(--muted); line-height: 1.55;
 }
 
-/* ---- responsive ---- */
 @media (max-width: 600px) {
   .ds-hero { padding: 36px 16px 32px; }
   .ds-main { padding: 0 16px; margin-top: 24px; }

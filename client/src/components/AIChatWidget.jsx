@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+// Netlify environment variable ya fallback live URL
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'https://mern-auth-1xna.onrender.com';
+
 function AIChatWidget({ currentMedicine }) {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
@@ -19,11 +22,10 @@ function AIChatWidget({ currentMedicine }) {
 
     try {
       // Backend AI route par request bhej rahe hain
-     
-      const res = await axios.post('https://mern-auth-1xna.onrender.com/api/ai/chat', {
-  message: userMessage,
-  medicineContext: currentMedicine
-});
+      const res = await axios.post(`${BACKEND_URL}/api/ai/chat`, {
+        message: userMessage,
+        medicineContext: currentMedicine
+      });
 
       setMessages(prev => [...prev, { sender: 'ai', text: res.data.reply }]);
     } catch (err) {
