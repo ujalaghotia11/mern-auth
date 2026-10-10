@@ -4,15 +4,24 @@ const Medicine = require('../models/Medicine');
 
 router.get('/search', async (req, res) => {
   try {
-    const { query } = req.query;
+    const rawQuery = req.query.query;
 
-    if (!query || query.trim() === '') {
+    if (!rawQuery || rawQuery.trim() === '') {
       return res.status(200).json({ searchedBrand: null, substitutes: [] });
     }
 
-    const searchRegex = new RegExp(query.trim(), 'i');
+    // 1. Clean up OCR noise (remove dosage like 650mg, numbers, and special symbols)
+    const cleanedQuery = rawQuery
+      .replace(/[0-9]+(\s*mg|\s*ml|\s*g)?/gi, '') // Removes "650mg", "500 mg", etc.
+      .replace(/[^\w\s]/gi, '')                  // Removes punctuation/symbols
+      .trim();
 
-    // Search by brand name OR salt name
+    // Fallback if cleaning leaves it completely empty
+    const finalQueryTerm = cleanedQuery.length > 0 ? cleanedQuery : rawQuery.trim();
+
+    const searchRegex = new RegExp(finalQueryTerm, 'i');
+
+    // Search by brand name OR salt name using the cleaned query
     const searchedMedicines = await Medicine.find({
       $or: [
         { brandName: searchRegex },

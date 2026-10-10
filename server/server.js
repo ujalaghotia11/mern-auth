@@ -20,6 +20,9 @@ app.use('/api/auth', authRoutes);
 const medicineRoutes = require('./routes/medicineRoutes');
 app.use('/api/medicines', medicineRoutes);
 
+const aiRoutes = require('./routes/ai.router');
+app.use('/api/ai', aiRoutes);
+
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MONGODB connected successfully'))
   .catch((err) => console.log('MONGODB connection failed:', err));

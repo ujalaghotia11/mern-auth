@@ -2,6 +2,7 @@ import { useState } from 'react';
 import SignUp from './components/SignUp';
 import Dashboard from './components/Dashboard';
 // import MedicineSearch from './components/MedicineSearch'; // Step 3 wala MedicineSearch import karein
+import AIChatWidget from './components/AIChatWidget';
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -29,6 +30,10 @@ function App() {
       ) : (
         <SignUp onLoginSuccess={handleLoginSuccess} />
       )}
+
+     
+      <AIChatWidget />
+
     </div>
   );
 }
