@@ -19,10 +19,11 @@ function AIChatWidget({ currentMedicine }) {
 
     try {
       // Backend AI route par request bhej rahe hain
-      const res = await axios.post('http://localhost:5000/api/ai/chat', {
-        message: userMessage,
-        medicineContext: currentMedicine
-      });
+     
+      const res = await axios.post('https://mern-auth-1xna.onrender.com/api/ai/chat', {
+  message: userMessage,
+  medicineContext: currentMedicine
+});
 
       setMessages(prev => [...prev, { sender: 'ai', text: res.data.reply }]);
     } catch (err) {
