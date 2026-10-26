@@ -1,26 +1,28 @@
 const express = require('express');
 const router = express.Router();
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleGenAI } = require('@google/genai');
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+// Initialize with the new SDK format
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-// Helper function to retry AI generation if 503 high demand occurs
-async function generateWithRetry(model, prompt, retries = 3, delay = 2000) {
+// Helper function to retry if 503 high demand occurs
+async function generateWithRetry(modelName, contents, retries = 3, delay = 2000) {
   for (let i = 0; i < retries; i++) {
     try {
-      const result = await model.generateContent(prompt);
-      const response = await result.response;
-      return response.text();
+      const response = await ai.models.generateContent({
+        model: modelName,
+        contents: contents,
+      });
+      return response.text;
     } catch (error) {
-      // Check if it's a 503 error or high demand message
       const isHighDemand = error.status === 503 || (error.message && error.message.includes('high demand'));
       
       if (isHighDemand && i < retries - 1) {
         console.warn(`Gemini high demand (503). Retrying attempt ${i + 2} in ${delay}ms...`);
         await new Promise(resolve => setTimeout(resolve, delay));
-        delay *= 2; // Exponential backoff (2s, 4s, etc.)
+        delay *= 2; // Exponential backoff
       } else {
-        throw error; // Throw error if it's not 503 or retries exhausted
+        throw error;
       }
     }
   }
@@ -36,19 +38,17 @@ router.post('/chat', async (req, res) => {
 
     const systemInstruction = `You are DawaiSaathi AI, a helpful health assistant in India. You help users understand medicine salts, generic alternatives, and general health info. Keep answers concise. Always remind users to consult a doctor. Current context about the medicine being viewed: ${JSON.stringify(medicineContext || {})}`;
 
-    // gemini-1.5-flash use kar rahe hain
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-
     const prompt = `${systemInstruction}\n\nUser Question: ${message}`;
-    
-    // Call helper with retry logic instead of direct model.generateContent
-    const text = await generateWithRetry(model, prompt);
 
-    res.status(200).json({ reply: text });
+    // Call the model with retry logic using gemini-2.5-flash (or gemini-1.5-flash)
+    const replyText = await generateWithRetry('gemini-2.5-flash', [
+      { role: 'user', parts: [{ text: prompt }] }
+    ]);
+
+    res.status(200).json({ reply: replyText });
   } catch (error) {
     console.error("Detailed AI Chat Error:", error);
     
-    // Send a user-friendly message if it's still 503 after retries
     const statusCode = error.status === 503 ? 503 : 500;
     res.status(statusCode).json({ 
       message: error.status === 503 ? "AI assistant is experiencing high traffic. Please try again in a moment." : "Failed to generate AI response", 
